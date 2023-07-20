@@ -66,3 +66,15 @@ body{
 .incorrect{
     background: red;
 }
+@media screen and (max-width: 200px) {
+    .app {
+      font-size: 10px;
+    }
+    .btn{
+        background: white;
+        color:black;
+        font-weight: 700;
+        width: 50%;
+        padding-left: 1px;
+  }
+}  
